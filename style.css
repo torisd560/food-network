@@ -64,7 +64,7 @@ a{
 .flexi-container-follower{
     display: flex;
     border-radius: 20px;
-    box-shadow:1px 1px 30px rgb(189, 183, 183);
+    box-shadow: 1px 1px 30px rgb(189, 183, 183);
 }
 .follower-width{
     width: 100%;
@@ -76,7 +76,7 @@ a{
 }
 footer{
     text-align: center;
-    background-color:black ;
+    background-color: black ;
     background-position: center;
     padding: 2px 30px 50px;
     margin-top: 50px;

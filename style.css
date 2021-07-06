@@ -82,3 +82,18 @@ footer{
 footer p{
     color: honeydew;
 }
+.right-side{
+    margin-left:100px;
+    text-align: right;
+}
+.button{
+    color: rgb(239, 248, 248);
+    background-color: rgb(214, 85, 10);
+    border:none;
+    margin:10px;
+    padding:5px 15px;
+    border-radius: 5px ;
+    cursor:wait;
+    box-shadow: 0 6px rgb(175, 174, 174);
+}
+.button:hover { background-color: rgb(50, 102, 109);}

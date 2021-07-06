@@ -61,7 +61,16 @@ a{
 .my-recipes{
     text-align: center ;
 }
-.list-follower ul{
-    display: inline;
-    list-style-type: none;
+.flexi-container-follower{
+    display: flex;
+   
+
+}.follower-width{
+    width:100%;
+    margin:100px 100px 150px 100px;
+    padding-left: 50px;
+}
+.follower-width h1{
+    color: rgb(5, 5, 5);
+   
 }

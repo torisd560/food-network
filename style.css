@@ -64,11 +64,13 @@ a{
 }
 .flexi-container-follower{
     display: flex;
+    border-radius: 20px;
+    box-shadow:1px 1px 30px rgb(189, 183, 183); ;
 }
 .follower-width{
     width:100%;
-    margin:100px 100px 150px 100px;
-    padding-left: 50px;
+   margin: 50px;
+    padding-left:50px;
 }
 .follower-width h1{
     color: rgb(5, 5, 5);
@@ -77,7 +79,8 @@ footer{
     text-align: center;
     background-color:black ;
     background-position: center;
-    padding:2px 20px 50px;
+    padding:2px 30px 50px;
+    margin-top: 50px;
 }
 footer p{
     color: honeydew;

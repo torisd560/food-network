@@ -10,12 +10,13 @@ h1{
 }
 a{
     display: inline-block;
+    text-decoration: none;
     color: hsl(0, 0%, 86%);
     font-weight: 600;
-    text-decoration: none;
-    border-radius: 20px;
     margin-top: 10px;
     padding: 5px 25px;
+    ;
+    border-radius: 20px;
     background-image: linear-gradient(rgb(255, 138, 4), rgb(252, 49, 59));
 }
 .link-button{
@@ -25,17 +26,17 @@ a{
     display: flex;
     margin:20px 20px 100px 20px;
 }
-.bg-img{
-    background-image: url(images/bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 .half-width{
     width: 50%;
     padding: 50px;
 }
 .half-width img{
     width: 90%
+}
+.bg-img{
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .margin-top{
     margin-top: 100px;
@@ -47,14 +48,14 @@ a{
 .flexi-container-recipe{
     display: flex;
 }
-.divide-wide{
+.divide-width{
     width: 30%;
     margin:3%;
     padding:20px;
     border-radius: 20px;
     box-shadow:1px 1px 20px rgb(156, 154, 154);
 }
-.divide-wide img{
+.divide-width img{
     width: 100%;
     border-radius: 20px;
 }
@@ -63,14 +64,21 @@ a{
 }
 .flexi-container-follower{
     display: flex;
-   
-
-}.follower-width{
+}
+.follower-width{
     width:100%;
     margin:100px 100px 150px 100px;
     padding-left: 50px;
 }
 .follower-width h1{
     color: rgb(5, 5, 5);
-   
+}
+footer{
+    text-align: center;
+    background-color:black ;
+    background-position: center;
+    padding:2px 20px 50px;
+}
+footer p{
+    color: honeydew;
 }

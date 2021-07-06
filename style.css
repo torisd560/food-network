@@ -23,7 +23,7 @@ a{
 }
 .flexiable-container{
     display: flex;
-    margin:20px 20px 100px 20px;
+    margin: 20px 20px 100px 20px;
 }
 .half-width{
     width: 50%;
@@ -49,10 +49,10 @@ a{
 }
 .divide-width{
     width: 30%;
-    margin:3%;
-    padding:20px;
+    margin: 3%;
+    padding: 20px;
     border-radius: 20px;
-    box-shadow:1px 1px 20px rgb(156, 154, 154);
+    box-shadow: 1px 1px 20px rgb(156, 154, 154);
 }
 .divide-width img{
     width: 100%;
@@ -64,12 +64,12 @@ a{
 .flexi-container-follower{
     display: flex;
     border-radius: 20px;
-    box-shadow:1px 1px 30px rgb(189, 183, 183); ;
+    box-shadow:1px 1px 30px rgb(189, 183, 183);
 }
 .follower-width{
-    width:100%;
-   margin: 50px;
-    padding-left:50px;
+    width: 100%;
+    margin: 50px;
+    padding-left: 50px;
 }
 .follower-width h1{
     color: rgb(5, 5, 5);
@@ -78,24 +78,24 @@ footer{
     text-align: center;
     background-color:black ;
     background-position: center;
-    padding:2px 30px 50px;
+    padding: 2px 30px 50px;
     margin-top: 50px;
 }
 footer p{
     color: honeydew;
 }
 .right-side{
-    margin-left:100px;
+    margin-left: 100px;
     text-align: right;
 }
 .button{
     color: rgb(239, 248, 248);
     background-color: rgb(214, 85, 10);
-    border:none;
-    margin:10px;
-    padding:5px 15px;
+    border: none;
+    margin: 10px;
+    padding: 5px 15px;
     border-radius: 5px ;
-    cursor:wait;
+    cursor: wait;
     box-shadow: 0 6px rgb(175, 174, 174);
 }
 .button:hover { background-color: rgb(50, 102, 109);}

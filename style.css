@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif; 
+    margin:0;
 }
 h1{
     color: rgb(85, 83, 83);
@@ -7,20 +8,23 @@ h1{
 .orange{
     color: rgb(243, 77, 11);
 }
-.link-button{
+a{
+    display: inline-block;
     color: hsl(0, 0%, 86%);
+    font-weight: 600;
     text-decoration: none;
     border-radius: 20px;
+    margin-top: 10px;
     padding: 5px 25px;
     background-image: linear-gradient(rgb(255, 138, 4), rgb(252, 49, 59));
-    font-weight: 600;
-    margin-top: 100px;
+}
+.link-button{
+    margin-top: 30px;
 }
 .flexiable-container{
     display: flex;
-    margin: 20px;
-    margin-bottom: 100px;
-}
+    margin:20px 20px 100px 20px;
+ }
 .bg-img{
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
